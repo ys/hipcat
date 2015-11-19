@@ -1,0 +1,31 @@
+{
+  "name": "hipcat",
+  "version": "0.1.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "./node_modules/electron-prebuilt/dist/Electron.app/Contents/MacOS/Electron .",
+    "watch": "./node_modules/.bin/webpack-dev-server",
+    "electron-rebuild": "./node_modules/.bin/electron-rebuild"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.35.0"
+  },
+  "dependencies": {
+    "babel": "^6.1.18",
+    "babel-core": "^6.2.0",
+    "babel-loader": "^6.2.0",
+    "babel-polyfill": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "css-loader": "^0.23.0",
+    "electron-packager": "^5.1.1",
+    "electron-rebuild": "^1.0.2",
+    "jsx-loader": "^0.13.2",
+    "node-sass": "^3.4.2",
+    "react": "^0.14.3",
+    "sass-loader": "^3.1.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.6",
+    "webpack-dev-server": "^1.12.1"
+  }
+}

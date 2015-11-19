@@ -1,0 +1,9 @@
+$body-bg: #fff;
+$myDiv-fg: #c00;
+
+body {
+  background-color: $body-bg;
+}
+div.myDiv {
+  color: $myDiv-fg;
+}
