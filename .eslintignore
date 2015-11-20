@@ -1,0 +1,5 @@
+node_modules
+static/js/generated
+webpack.config.js
+webpack.hot.config.js
+vendor
